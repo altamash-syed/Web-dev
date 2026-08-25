@@ -1,0 +1,146 @@
+.flex{
+    display: flex;
+    gap: 5px;
+}
+
+.jcentre{
+    justify-content: center;
+}
+
+.acentre{
+    align-items: center;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 18px;
+    margin:10px 0px 0px 10px;
+    padding: 10px;
+}
+.line{
+    width: 1px;
+    height: 32px;
+    background-color: white;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    gap:10px;
+    color: rgba(255, 255, 255, 0.437);
+}
+
+.afline{
+    margin:20px;
+}
+
+
+.afline:hover{
+    font-size: 16.5px;
+    color: white;
+}
+
+.sidebar ul{
+    padding: 24px;
+}
+
+
+.sidebar ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    margin: 20px;
+}
+
+@media (max-height:488px) {
+    .cards{
+    position: relative;
+    height: 160px;
+    width: 150px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 9px;
+    background-color:#1d1c1c;
+}
+    .songpic{
+    object-fit: contain;
+    width: 130px;
+    border-radius: 9px;
+    box-shadow: #1d1c1c;
+}
+    .cards > h3,p{
+        font-size: small;
+
+    }
+
+    .cards:hover{
+    .playbtn{
+        opacity: 1;
+        bottom: 90px;
+    }}
+
+    .sidebar ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    padding: 8px;
+    margin: 16px;
+}   
+
+    .sidebar ul{
+        max-height: 220px;
+        overflow: scroll;
+    }
+}
+
+@media (max-width:1150px){
+    .sidebar{
+    position: absolute;
+    left: -100%;
+    transition: all .3s;
+    z-index: 1;
+    width: 300px;
+    }
+
+    
+    .mainbar{
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    .cardcontainer{
+        max-width: 100%;
+        flex-wrap: wrap;
+        max-height: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .playback{
+        margin-top: 1vh;
+        width: 100%;
+        gap:20px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .sbtn{
+        justify-content: center;
+    }
+
+    nav{
+        display: flex;
+        overflow:scroll;
+        scrollbar-width: none;
+    }
+}
+

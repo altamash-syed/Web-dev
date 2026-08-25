@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body style="background-color: black;">
+    <nav class="flex acentre">
+        <img class="logo" src="logo.svg" alt="">
+        <div class="flex acentre" style="margin-right: 50VW;"><img src="home.svg" alt=""></div>
+        <a href="https://www.spotify.com/in-en/premium/">Premium</a>
+        <a href="https://support.spotify.com/in-en/">Support</a>
+        <a href="https://www.spotify.com/in-en/download/windows/">Download</a>
+        <div class="line"></div>
+        <a class="afline" href="">Install App</a>
+        <a class="afline" href="">Sign up</a>
+        <button class="logbtn">Log in</button>
+    </nav>
+
+
+    <span class="sidebar">
+    <span><h3 class ="flex" style="margin:10px 5px 30px 5px; justify-content: space-between;">Your library  <img class="cut" id = "cross" src="plus-sign-stroke-rounded.svg" alt=""></h3></span>
+    <ul>
+    </ul>
+    </span>
+
+    <span class="mainbar">
+        <div class="heading"><h2>playlists</h2><h7>show all</h7></div>
+        <div class="cardcontainer">
+        </div>
+        <div class="playback">
+            <div class="songinfo"></div>
+                <div class="sbtn">
+                <img id="pre" src="pre.svg" alt="">
+                <img id="play" src="play.svg" alt="">
+                <img style="margin-right:10px;" id="fore" src="for.svg" alt="">
+                <div class="range"><img class="vol" src="sound.svg" alt=""><input type="range" name="volume"></div>
+                </div>
+            <div class="tstamp"></div>
+         <div class="seekbar"><div class="pointer"></div></div>
+        </div>
+    </span>
+
+    <footer></footer>
+<script src="code.js"></script>
+</body>
+</html>

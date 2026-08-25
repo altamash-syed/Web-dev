@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image:url(assets/img_video/bgim.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+.main .box{
+    height: 100%;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position:absolute;
+    top:0;
+}
+nav{
+    display:flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    margin-bottom:100px;
+}
+nav img{
+    position: relative;
+    z-index: 10;
+}
+nav button{
+   position: relative;
+    z-index: 10;
+}
+.headings{
+    display:flex;
+   /* align-self: center;*/
+   align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:calc(100%-90px);
+    color: white;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap:25px;
+    /*font-family:url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2)*/
+}
+.headings> :first-child{
+    height: 110px;
+    width: 580px;
+    font-weight: bolder;
+    font-size: 60px;
+    align-self: center;
+    text-align: center;
+
+}
+.headings> :nth-child(2){
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.headings> :nth-child(3){
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+.line{
+    box-sizing: border-box;
+    width:100%;
+    /*background-color: red;*/
+    border: solid .25rem transparent ;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background:radial-gradient(
+                    50% 500% at 50% -420%,
+                    rgba(64, 97, 231, 0.4) 80%,
+                    rgba(0, 0, 0, 0.1) 100%),rgb(114, 114, 114);
+}
+.but{
+    background-color: rgba(23, 23, 23, 0.4);
+    padding:5px ;
+    font-weight: bold;
+    color: white;
+}
+.bt1{
+height: 30px;
+width: 100px;
+border-radius: 7px;
+}
+.btred{
+    background-color: red;
+    height:30px;
+    width: 60px;
+border-radius: 7px;
+cursor: pointer;
+}
+.btred:hover{
+    background-color:rgba(255, 0, 0, 0.726) ;
+}
+.btred1:hover{
+    background-color:rgba(255, 0, 0, 0.726) ;
+}
+.btred1{
+    background-color: red;
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+border-radius: 7px;
+cursor: pointer;
+}
+.main input{
+    width: 400px;
+    height: 40px;
+    background-color: rgba(23, 23, 23, 0.4);
+    font-size: 25px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    color: white;
+}
+.l2{
+    font-size:20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:40px 0 20px 10vw;
+}
+.sec1{
+    display: flex;
+    height: 35vh;
+    width: 80vw;
+    margin-left: 10vw;
+}
+.temp{
+    border: none;
+    margin: 5px;
+    color: antiquewhite;
+    font-size: 18px;
+    height: 35vh;
+    width:20vw;
+    border-radius: 20px;
+   /* background:
+  radial-gradient(ellipse at top, #0e0442, 80%,transparent),
+  radial-gradient(ellipse at bottom, #d23794, transparent);*/
+  background:linear-gradient(0.39turn,#010533c0,#100345,#470546);
+}
+h3{
+    margin:15px 0px;
+    color: white;
+    font-size:28px;
+    padding: 10px 10px;
+}
+h6{
+    font-size: 18px;
+    padding:8px 8px;
+}
+.faq{
+    padding-left: 10vw;
+    color: white;
+}
+.box2{
+    display: flex;
+    background-color: rgba(23, 23, 23, 0.762);
+    border: none;
+    width:77vw;
+    padding: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    font-size: 25px;
+    cursor: pointer;
+}
+.box2:hover{
+    background-color:rgba(23, 23, 23, 0.948) ;
+}
+h2{
+    padding-top:40px;
+    padding-bottom:20px;
+    color: white;
+    padding-left: 10vw;
+}
+footer{
+     display:grid;
+    color: white;
+    text-decoration: underline;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:60px 0px 10px 10vw;
+}
+
+.end{
+    color: white;
+    font-size: 20px;
+    padding:60px 0px 10px 10vw;
+}
+
+.enel{
+    padding: 10px 10px 10px 10px;
+}
+.enel:hover{
+    cursor: pointer;}
